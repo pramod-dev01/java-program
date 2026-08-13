@@ -5,9 +5,9 @@ public class Panagram {
         String str = "The quick brown fox jumps over the lazy dog";
 
         if (isPanagram(str)) {
-            System.out.println("Panagram");
+            System.out.println("The given string is a Pangram.");
         } else {
-            System.out.println("Not Panagram");
+            System.out.println("The given string is not a Pangram.");
         }
     }
 
