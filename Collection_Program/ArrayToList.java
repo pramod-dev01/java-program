@@ -12,7 +12,7 @@ public class ArrayToList {
         }
 
         HashSet<Integer> hs = new HashSet<>(Arrays.asList(10, 20, 30, 10, 40, 20));
-
+        
         // Iterate Through the forEach Loop
         for (Integer value : hs) {
             // System.out.print(value+ " ");
